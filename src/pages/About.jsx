@@ -7,7 +7,7 @@ const About = () => {
     <div className="about-container">
       {/* Profile Section */}
       <div className="profile-section">
-        <img src={process.env.PUBLIC_URL + "/images/profile.jpeg"} alt="Profile" className="profile-pic" title="Vansh Wahi" />
+        <img src="/images/profile.jpeg" alt="Profile" className="profile-pic" title="Vansh Wahi" />
         <p className="profile-intro">
           Hi, I'm Vansh, an undergraduate student pursuing computer science and applied AI.
           Here's a little more about my educational and professional journey.
