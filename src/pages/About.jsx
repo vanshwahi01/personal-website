@@ -19,14 +19,14 @@ const About = () => {
         <h2>Education</h2>
         <div className="roadmap">
           <div className="roadmap-entry">
-            <img src={process.env.PUBLIC_URL + "/images/waterloo.png"} alt="University Logo" className="school-logo" />
+            <img src="/images/waterloo.png" alt="University Logo" className="school-logo" />
             <div className="school-details">
               <h3>The University of Waterloo</h3>
               <p>Bachelor's of Computer Science with AI Specialization<br /> Expected Graduation: Aug 2026</p>
             </div>
           </div>
           <div className="roadmap-entry">
-            <img src={process.env.PUBLIC_URL + "/images/tsrs.png"} alt="School 1 Logo" className="school-logo" />
+            <img src="/images/tsrs.png" alt="School 1 Logo" className="school-logo" />
             <div className="school-details">
               <h3>The Shri Ram School, Aravali</h3>
               <p>High School Diploma<br /> Graduated: 2022</p>
@@ -40,21 +40,21 @@ const About = () => {
         <h2>Co-op Experience</h2>
         <div className="roadmap">
           <div className="roadmap-entry">
-            <img src={process.env.PUBLIC_URL + "/images/pcc.png"} alt="Company Logo" className="company-logo" />
+            <img src="/images/pcc.png" alt="Company Logo" className="company-logo" />
             <div className="experience-details">
               <h3>PointClickCare</h3>
               <p>Software Engineer<br /> Sept 2024 - Present</p>
             </div>
           </div>
           <div className="roadmap-entry">
-            <img src={process.env.PUBLIC_URL + "/images/dawson.png"} alt="Company Logo" className="company-logo" />
+            <img src="/images/dawson.png" alt="Company Logo" className="company-logo" />
             <div className="experience-details">
               <h3>Dawson Partners</h3>
               <p>Technology Analyst<br /> Jan - Apr 2024</p>
             </div>
           </div>
           <div className="roadmap-entry">
-            <img src={process.env.PUBLIC_URL + "/images/eon.png"} alt="Company Logo" className="company-logo" />
+            <img src="/images/eon.png" alt="Company Logo" className="company-logo" />
             <div className="experience-details">
               <h3>EON Media Corporation</h3>
               <p>Software Engineer<br /> May - Sept 2023</p>
